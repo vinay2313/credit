@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+.container{
+background-color: rgb(49, 47, 47);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.box{
+width: 90vw;
+height: 100vh;
+background-image: linear-gradient(90deg, #050505cb 100%, transparent 200%, #050505 0%), url(card2.webp);
+background-position: top;
+background-size: cover;
+margin-top: 4%;
+margin-bottom: 4%;
+padding-top: 2%;
+padding-bottom: 13%;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;          
+}
+.nav1{
+ width: 18%;
+ color: white;
+ text-align: center;
+ font-size: 27px;
+}
+.nav2{
+width: 40%;
+color: white;
+
+}
+ul{
+    display: flex;
+justify-content: space-between;
+}
+li{
+   list-style: none;
+}
+.paragraph{
+    font-size: 15px;
+}
+.text h1{
+    font-size: 50px;
+}
+.text{
+color: white;
+text-align: center;
+margin-top: 5%;
+width: 40%;
+justify-content: center;
+align-items: center;
+}
+.btn1{
+    width: 55px;
+    height:20px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-bottom: solid grey 1px;
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+
+}
+.text p{
+    margin-top: 3%;
+    color: rgb(216, 195, 195);
+}
+.potential{
+    color: aqua;
+    font-size: 50px;
+}
+.textp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    position: sticky;
+   
+}
+.buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+/* media querry starts form here */
+
+@media only screen and (max-width: 1083px) {
+    .nav2{
+        display: none;
+        
+    }
+    .nav1{ width: 25%;
+    }
+    .nav3{
+        width: 25%;
+    }
+    .text{
+        width: 70%;
+    }
+  
+  }
+  
+@media only screen and (max-width: 480px) {
+.nav1{
+    width: 40%;
+}
+}
